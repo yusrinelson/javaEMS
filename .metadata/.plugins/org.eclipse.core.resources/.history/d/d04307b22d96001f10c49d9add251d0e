@@ -1,0 +1,11 @@
+package employeesystem;
+
+public class FullTimeJob extends Employee {
+
+	@Override
+	public double salaryCalculation() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,5 @@
+package employeesystem;
+
+class fullTimeJob extends Employee {
+
+}

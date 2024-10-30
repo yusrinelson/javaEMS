@@ -1,0 +1,22 @@
+package employee.management.system;
+
+class fullTimeJob extends Employee {
+	private double monthlySalary;
+	
+	public fullTimeJob(String name, double monthlySalary) {
+		super(name);
+		this.monthlySalary = monthlySalary;
+	}
+	
+	@Override
+	public double SalaryCalculation() {
+		return monthlySalary;
+	}
+
+	@Override
+	public double salaryCalculation() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,9 @@
+package employee.management.system;
+
+public class fullTimeJob {
+
+	public fullTimeJob() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,5 @@
+package employeesystem;
+
+public abstract class Employee {
+
+}

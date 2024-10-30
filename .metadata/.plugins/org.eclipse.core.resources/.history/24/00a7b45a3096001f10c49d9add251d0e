@@ -1,0 +1,38 @@
+package employeesystem;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		Employee employee = null;
+		
+		System.out.println("Choose Employee Type: (1) Full-Time (2) Part-Time");
+		int option = scanner.nextInt();
+		scanner.nextLine();
+		
+		System.out.println("Enter your name: ");
+		String name = scanner.nextLine();
+		
+		if(option == 1) {
+			System.out.println("Enter monthly salary: ");
+			double monthlySalary = scanner.nextDouble();
+			employee = new FullTimeJob(name, monthlySalary);
+		}else if(option == 2) {
+			System.out.println("Enter hours worked: ");
+			int hoursWorked = scanner.nextInt();
+			employee = new PartTimeJob(name, hoursWorked);
+		}else {
+			System.out.println("Invalid choice. Please select either 1 or 2.");
+			return;
+		}
+		employee.userDetails();
+		System.out.println("Salary: " + employee.salaryCalculation());
+
+        scanner.close();
+		
+		
+	}
+
+}

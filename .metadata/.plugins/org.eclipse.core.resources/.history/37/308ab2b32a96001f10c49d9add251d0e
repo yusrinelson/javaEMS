@@ -1,0 +1,5 @@
+package employee.management.system;
+
+class fullTimeJob extends Employee {
+
+}
