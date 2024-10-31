@@ -48,7 +48,7 @@ public class Main {
 					return;
 				}
 
-			} else if (option == 2) { //function calculates the salary of the Part time you selected
+			} else if (option == 2) { //function calculates the salary of the Partime you selected
 				System.out.println("Enter hours worked: ");
 				int partTimeHoursWorked = scanner.nextInt();
 

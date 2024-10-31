@@ -36,19 +36,19 @@ public class Main {
 				//function calculates the salary of the position you selected
 				if (value == 1) {
 					employee = new FullTimeJob(name, hoursWorked);//initialise FullTimeJob to calculate the salary
-					System.out.println(name + " Your Salary for this month is: R" + employee.JsalaryCalculation());
+					System.out.println(name + " Your Salary for this month is: " + employee.JsalaryCalculation());
 				} else if (value == 2) {
 					employee = new FullTimeJob(name, hoursWorked);
-					System.out.println(name + " Your Salary for this month is: R" + employee.MsalaryCalculation());
+					System.out.println(name + " Your Salary for this month is: " + employee.MsalaryCalculation());
 				} else if (value == 3) {
 					employee = new FullTimeJob(name, hoursWorked);
-					System.out.println(name + " Your Salary for this month is: R" + employee.SsalaryCalculation());
+					System.out.println(name + " Your Salary for this month is: " + employee.SsalaryCalculation());
 				} else {
 					System.out.println("Invalid choice. Please select the options available");
 					return;
 				}
 
-			} else if (option == 2) { //function calculates the salary of the Part time you selected
+			} else if (option == 2) { //function calculates the salary of the Partime you selected
 				System.out.println("Enter hours worked: ");
 				int partTimeHoursWorked = scanner.nextInt();
 
@@ -57,7 +57,7 @@ public class Main {
 				}
 
 				employee = new PartTimeJob(name, partTimeHoursWorked);
-				System.out.println(name + " Your Salary for this month is: R" + employee.MpartTimeCalculation());
+				System.out.println(name + " Your Salary for this month is: " + employee.MpartTimeCalculation());
 			} else {
 				System.out.println("Invalid choice. Please select the options available");
 				return;
