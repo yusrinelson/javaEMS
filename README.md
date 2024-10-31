@@ -17,7 +17,7 @@ This is a simple Employment Management System, that calculates users salary for 
 Install JDK (if you dont have it already)
 
 ```bash
-  check it by running java -version in your command
+  check it by running java -version in your terminal
 ```
 Clone the project
 
@@ -45,5 +45,20 @@ Run the application
 using eclipse is recommended as you can just click the run button after it is set up. 
 
 ## Screenshots
+These are screenshots of the outcome of different inputs when running the code.
 
 ![console screenshot](https://github.com/yusrinelson/javaEMS/blob/main/EmployeeManagementSystem/position1.png)
+
+![console screenshot](https://github.com/yusrinelson/javaEMS/blob/main/EmployeeManagementSystem/position2.png)
+
+![console screenshot](https://github.com/yusrinelson/javaEMS/blob/main/EmployeeManagementSystem/position3.png)
+
+![console screenshot](https://github.com/yusrinelson/javaEMS/blob/main/EmployeeManagementSystem/partTime.png)
+
+
+
+https://github.com/yusrinelson/javaEMS/blob/main/EmployeeManagementSystem/position2.png
+## Authors
+
+- [@Yusri Nelson](https://www.linkedin.com/in/yusri-nelson/)
+
