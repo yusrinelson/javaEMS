@@ -15,13 +15,13 @@ public class Main {
 			System.out.println("Enter your full name: ");
 			String name = scanner.nextLine();
 
-			System.out.println("Select Your Employee Type: \n1.Full-Time \n2.Part-Time");
+			System.out.println("Select Your Employee Type: 1.Full-Time | 2.Part-Time");
 			int option = scanner.nextInt();
 			scanner.nextLine();
 
 			//if you select Full-time you get to choose your position
 			if (option == 1) {
-				System.out.println("Select Your Position: \n1.Junior Developer \n2.Mid Developer  \n3.Senior Developer");
+				System.out.println("Select Your Position: 1.Junior Developer | 2.Mid Developer | 3.Senior Developer");
 				int value = scanner.nextInt();
 				scanner.nextLine();
 

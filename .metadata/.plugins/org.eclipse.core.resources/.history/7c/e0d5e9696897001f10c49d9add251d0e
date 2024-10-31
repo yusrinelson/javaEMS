@@ -21,7 +21,7 @@ public class Main {
 
 			//if you select Full-time you get to choose your position
 			if (option == 1) {
-				System.out.println("Select Your Position: \n1.Junior Developer \n2.Mid Developer  \n3.Senior Developer");
+				System.out.println("Select Your Position: 1.Junior Developer | 2.Mid Developer | 3.Senior Developer");
 				int value = scanner.nextInt();
 				scanner.nextLine();
 
