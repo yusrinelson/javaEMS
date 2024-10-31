@@ -56,8 +56,6 @@ These are screenshots of the outcome of different inputs when running the code.
 ![console screenshot](https://github.com/yusrinelson/javaEMS/blob/main/EmployeeManagementSystem/partTime.png)
 
 
-
-https://github.com/yusrinelson/javaEMS/blob/main/EmployeeManagementSystem/position2.png
 ## Authors
 
 - [@Yusri Nelson](https://www.linkedin.com/in/yusri-nelson/)
